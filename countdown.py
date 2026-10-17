@@ -32,7 +32,7 @@ root.title("Countdown Timer")
 root.geometry("350x240")
 root.config(bg="#f4f4f9")
 
-tk.Label(root, text="⏳ Countdown Timer", font=("Arial", 14, "bold"), bg="#f4f4f9").pack(pady=10)
+tk.Label(root, text=" Countdown Timer", font=("Arial", 14, "bold"), bg="#f4f4f9").pack(pady=10)
 
 input_frame = tk.Frame(root, bg="#f4f4f9")
 input_frame.pack(pady=5)
