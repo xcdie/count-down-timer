@@ -21,7 +21,7 @@ def start_countdown():
             
             timer_var.set("00:00:00")
             root.bell()
-            messagebox.showinfo("Time's Up!", "⏰ Countdown finished!")
+            messagebox.showinfo("Time's Up!", " Countdown finished!")
 
         threading.Thread(target=run_timer, daemon=True).start()
     except ValueError:
